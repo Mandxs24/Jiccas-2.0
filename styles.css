@@ -112,7 +112,6 @@ nav {
 main {
     background-color: #D9BB84;
     color: #000;
-    font-size: thin;
     border-radius: 45px;
     margin: 30px
 }
@@ -121,6 +120,8 @@ main {
     justify-content: center;
     display: flex;
     margin-bottom: 40px;
+    gap: 70px;
+    flex-wrap: wrap;
 }
 
 .image img {
@@ -136,13 +137,12 @@ body h2 {
     padding-bottom: 20px;
 }
 
-.tema {}
-
 .container {
     padding: 10px;
     padding-top: 60px;
     padding-bottom: 90px;
     text-align: justify;
+
 }
 
 .container p {
@@ -172,4 +172,8 @@ h3 {
     color: #000;
     background-color: #D9BB84;
     border-radius: 10px;
+}
+
+.tema{
+    text-align: center;
 }
